@@ -1,0 +1,16 @@
+Wenn falsches Item eingesammelt wird -> Spieler tot.
+
+"Rätsel"
+Mir fehlt Zeit.. sehen kann ich in dieser Dunkelheit auch nichts.. und ich vermisse Sport.
+
+Raum 0 : Start
+Raum 1 : Handschuh
+Raum 2 : Badminton-Schläger
+Raum 3 : Käsereibe
+Raum 4 : Uhr
+Raum 5 : Glühbirne
+Raum 6 : Würfel
+Raum 7 : Buch
+Raum 8 : Taschenlampe
+Raum 9 : Pfeil und Bogen
+Raum 10: Exit
