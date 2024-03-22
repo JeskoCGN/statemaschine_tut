@@ -1,16 +1,41 @@
 Wenn falsches Item eingesammelt wird -> Spieler tot.
 
+Items die eingesammelt werden müssen:
+Uhr, Taschenlampe, Badminton-Schläger.
+
 "Rätsel"
 Mir fehlt Zeit.. sehen kann ich in dieser Dunkelheit auch nichts.. und ich vermisse Sport.
 
+
 Raum 0 : Start
+Viel Glück und viel Segen, auf all deinen Wegen.. stirb nicht. Tschüss.
+
 Raum 1 : Handschuh
+Der erste Raum. Vor dir liegt ein Handschuh.
+
 Raum 2 : Badminton-Schläger
+Du bist in Raum 2 eingetreten. Du stolperst über einen Badminton-Schläger.
+
 Raum 3 : Käsereibe
+In Raum 3 riechts streng.. eine Käsereibe findest du in der Ecke liegen.
+
 Raum 4 : Uhr
+Tick, Tack.. Tick, Tack. In Raum 4 tickt es ununterbrochen. Die Uhr nervt.
+
 Raum 5 : Glühbirne
+Endlich Lich in Raum 5. Vorher konntest du nur so weit schauen wie deine Nase reicht.
+
 Raum 6 : Würfel
+In Raum 6 findest du Würfel... ob dich ein Pasch wohl hier raus bring?
+
 Raum 7 : Buch
+Angekommen in Raum 7 stolperst du über ein Buch. "The Secret" lautet der Titel.
+
 Raum 8 : Taschenlampe
+Nächster Raum... und nur eine Taschhenlampe. Der Lichkegel erhellt die aufgemalte 8 an der Wand.
+
 Raum 9 : Pfeil und Bogen
+Ein Raschel in der Ecke! Du gehst einige Schritte zurück und stolperst über Pfeil und Bogen.
+
 Raum 10: Exit
+Raum 10... eine große Türe darüber ein grün leuchtendes "EXIT" Schild... hast du es geschafft.
