@@ -16,7 +16,7 @@ namespace statemaschine_tut
         }
         private void Start()
         {
-            curState = new Awake();
+            curState = new Raum1();
         }
         public void Update()
         {

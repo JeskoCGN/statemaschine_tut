@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace statemaschine_tut
 {
-    internal class Raum7 : IState
+    internal class Raum11 : IState
     {
         public void Update()
         {
