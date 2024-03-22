@@ -8,18 +8,21 @@ namespace statemaschine_tut
 {
     internal class Raum9 : IState
     {
-        public void Update()
-        {
-        }
         public IState Check()
         {
-            return null;
+            if (Console.ReadLine()?.ToLower() == "s") return new Raum7();
+
+            return null!;
         }
+
         public void StartState()
         {
+            Console.WriteLine("Ein Raschel in der Ecke! Du gehst einige Schritte zurück und stolperst über Pfeil und Bogen.");
         }
+
         public void EndState()
         {
+            Console.WriteLine();
         }
     }
 }

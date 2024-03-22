@@ -8,18 +8,21 @@ namespace statemaschine_tut
 {
     internal class Raum6 : IState
     {
-        public void Update()
-        {
-        }
         public IState Check()
         {
-            return null;
+            if (Console.ReadLine()?.ToLower() == "w") return new Raum7();
+
+            return null!;
         }
+
         public void StartState()
         {
+            Console.WriteLine("In Raum 6 findest du Würfel... ob dich ein Pasch wohl hier raus bring?");
         }
+
         public void EndState()
         {
+            Console.WriteLine();
         }
     }
 }
