@@ -11,7 +11,8 @@ namespace statemaschine_tut
 
         public IState Check()
         {
-            if (Console.ReadLine()?.ToLower() == "n") return new Raum1();
+            string readLineLower = Console.ReadLine()!.ToLower();
+            if (readLineLower == "n") return new Raum1();
 
             return null!;
         }
@@ -22,6 +23,7 @@ namespace statemaschine_tut
             Console.WriteLine("Mir fehlt Zeit.. sehen kann ich in dieser Dunkelheit auch nichts.. und ich vermisse Sport.");
             Console.WriteLine();
             Console.WriteLine("Viel Glück und viel Segen, auf all deinen Wegen.. stirb nicht. Tschüss.");
+            Console.WriteLine("Du kannst nach [N]orden.");
         }
 
         public void EndState()

@@ -6,7 +6,8 @@
         private bool validInput = false;
         public IState Check()
         {
-            if (Console.ReadLine()?.ToLower() == "o") return new Raum1();
+            string readLineLower = Console.ReadLine()!.ToLower();
+            if (readLineLower == "o") return new Raum1();
 
             return null!;
         }
@@ -18,7 +19,7 @@
             Console.WriteLine("[J]a/ [N]ein");
             while (validInput == false)
             {
-                ConsoleKey input = Console.ReadKey().Key;
+                ConsoleKey input = Console.ReadKey(true).Key;
                 if (input == ConsoleKey.J)
                 {
                     Console.WriteLine("Item wurde aufgesammelt");
@@ -36,6 +37,7 @@
                     validInput = false;
                 }
             }
+            Console.WriteLine("Du kannst nach [O]sten.");
         }
 
         public void EndState()

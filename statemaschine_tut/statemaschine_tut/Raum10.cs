@@ -11,7 +11,8 @@ namespace statemaschine_tut
         private bool validInput = false;
         public IState Check()
         {
-            if (Console.ReadLine()?.ToLower() == "s") return new Raum4();
+            string readLineLower = Console.ReadLine()!.ToLower();
+            if (readLineLower == "s") return new Raum4();
 
             return null!;
         }
@@ -23,12 +24,14 @@ namespace statemaschine_tut
             Console.WriteLine("[J]a/ [N]ein");
             while (validInput == false)
             {
-                ConsoleKey input = Console.ReadKey().Key;
+                ConsoleKey input = Console.ReadKey(true).Key;
                 if (input == ConsoleKey.J)
                 {
                     if(Program.uhr&&Program.taschenlampe&&Program.badmintonSchläger)
                     {
                         Console.WriteLine("Du bist erfolgreich entkommen");
+                        Console.ReadKey(true);
+                        Environment.Exit(0);
                     }
                     else
                     {
@@ -47,6 +50,7 @@ namespace statemaschine_tut
                     validInput = false;
                 }
             }
+
         }
 
         public void EndState()

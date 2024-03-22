@@ -12,7 +12,8 @@ namespace statemaschine_tut
         private bool validInput = false;
         public IState Check()
         {
-            if (Console.ReadLine()?.ToLower() == "s") return new Raum7();
+            string readLineLower = Console.ReadLine()!.ToLower();
+            if (readLineLower == "s") return new Raum7();
 
             return null!;
         }
@@ -24,7 +25,7 @@ namespace statemaschine_tut
             Console.WriteLine("[J]a/ [N]ein");
             while (validInput == false)
             {
-                ConsoleKey input = Console.ReadKey().Key;
+                ConsoleKey input = Console.ReadKey(true).Key;
                 if (input == ConsoleKey.J)
                 {
                     Console.WriteLine("Item wurde aufgesammelt");
@@ -42,6 +43,7 @@ namespace statemaschine_tut
                     validInput = false;
                 }
             }
+            Console.WriteLine("Du kannst nach [S]üden.");
         }
 
         public void EndState()

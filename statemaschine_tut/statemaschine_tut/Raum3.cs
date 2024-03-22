@@ -12,9 +12,10 @@ namespace statemaschine_tut
         private bool validInput = false;
         public IState Check()
         {
-            if (Console.ReadLine()?.ToLower() == "o") return new Raum5();
-            if (Console.ReadLine()?.ToLower() == "s") return new Raum1();
-            if (Console.ReadLine()?.ToLower() == "w") return new Raum4();
+            string readLineLower = Console.ReadLine()!.ToLower();
+            if (readLineLower == "o") return new Raum5();
+            else if (readLineLower == "s") return new Raum1();
+            else if (readLineLower == "w") return new Raum4();
 
             return null!;
         }
@@ -26,7 +27,7 @@ namespace statemaschine_tut
             Console.WriteLine("[J]a/ [N]ein");
             while (validInput == false)
             {
-                ConsoleKey input = Console.ReadKey().Key;
+                ConsoleKey input = Console.ReadKey(true).Key;
                 if (input == ConsoleKey.J)
                 {
                     Console.WriteLine("Item wurde aufgesammelt");
@@ -44,6 +45,7 @@ namespace statemaschine_tut
                     validInput = false;
                 }
             }
+            Console.WriteLine("Du kannst nach [O]sten, [S]üden oder [W]esten.");
         }
 
         public void EndState()

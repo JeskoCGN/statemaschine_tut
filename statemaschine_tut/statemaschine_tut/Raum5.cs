@@ -12,8 +12,9 @@ namespace statemaschine_tut
         private bool validInput = false;
         public IState Check()
         {
-            if (Console.ReadLine()?.ToLower() == "n") return new Raum7();
-            else if (Console.ReadLine()?.ToLower() == "w") return new Raum3();
+            string readLineLower = Console.ReadLine()!.ToLower();
+            if (readLineLower == "n") return new Raum7();
+            else if (readLineLower == "w") return new Raum3();
 
             return null!;
         }
@@ -25,7 +26,7 @@ namespace statemaschine_tut
             Console.WriteLine("[J]a/ [N]ein");
             while (validInput == false)
             {
-                ConsoleKey input = Console.ReadKey().Key;
+                ConsoleKey input = Console.ReadKey(true).Key;
                 if (input == ConsoleKey.J)
                 {
                     Console.WriteLine("Item wurde aufgesammelt");
@@ -43,6 +44,7 @@ namespace statemaschine_tut
                     validInput = false;
                 }
             }
+            Console.WriteLine("Du kannst nach [N]orden oder [W]esten.");
         }
 
         public void EndState()
