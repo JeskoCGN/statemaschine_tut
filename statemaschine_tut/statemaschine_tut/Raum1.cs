@@ -10,22 +10,20 @@ namespace statemaschine_tut
     {
         public IState Check()
         {
-            {
-                if (Console.ReadLine().ToLower() == "n") return new Raum3();
-                else if (Console.ReadLine().ToLower() == "w") return new Raum2();
+            if (Console.ReadLine()?.ToLower() == "n") return new Raum3();
+            if (Console.ReadLine()?.ToLower() == "w") return new Raum2();
 
-                return null!;
-            }
+            return null!;
         }
 
         public void StartState()
         {
-
+            Console.WriteLine("Der erste Raum. Vor dir liegt ein Handschuh.");
         }
 
         public void EndState()
         {
-
+            Console.WriteLine();
         }
     }
 }

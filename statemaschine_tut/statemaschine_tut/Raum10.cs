@@ -8,18 +8,21 @@ namespace statemaschine_tut
 {
     internal class Raum10 : IState
     {
-        public void Update()
-        {
-        }
         public IState Check()
         {
-            return null;
+            if (Console.ReadLine()?.ToLower() == "s") return new Raum4();
+
+            return null!;
         }
+
         public void StartState()
         {
+            Console.WriteLine("Raum 10... eine große Türe darüber ein grün leuchtendes \"EXIT\" Schild... hast du es geschafft.");
         }
+
         public void EndState()
         {
+            Console.WriteLine();
         }
     }
 }

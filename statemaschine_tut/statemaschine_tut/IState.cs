@@ -8,10 +8,8 @@ namespace statemaschine_tut
 {
     internal interface IState
     {
-        public void Update();
         public IState Check();
         public void StartState();
-
         public void EndState();
     }
 }

@@ -11,12 +11,9 @@ namespace statemaschine_tut
 
         public IState Check()
         {
-            {
-                if (Console.ReadLine().ToLower() == "n")
-                    return new Raum1();
+            if (Console.ReadLine()?.ToLower() == "n") return new Raum1();
 
-                return null!;
-            }
+            return null!;
         }
 
         public void StartState()
