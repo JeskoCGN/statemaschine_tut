@@ -28,6 +28,11 @@ namespace statemaschine_tut
                 curState.EndState();
                 curState = nextState;
                 curState.StartState();
+                if(Program.falseItem)
+                {
+                    Console.WriteLine("Du bist gestorben");
+                    Environment.Exit(0);
+                }
             }
         }
     }
