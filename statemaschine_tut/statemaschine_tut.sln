@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "statemaschine_tut", "statemaschine_tut\statemaschine_tut.csproj", "{FF05BA48-3024-4F4C-8AA2-2592AB184C97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF05BA48-3024-4F4C-8AA2-2592AB184C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF05BA48-3024-4F4C-8AA2-2592AB184C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF05BA48-3024-4F4C-8AA2-2592AB184C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF05BA48-3024-4F4C-8AA2-2592AB184C97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {507CE249-7460-48CC-8A8E-604B667501D1}
+	EndGlobalSection
+EndGlobal
