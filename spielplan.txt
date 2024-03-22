@@ -1,14 +1,30 @@
 Wenn falsches Item eingesammelt wird -> Spieler tot.
 
+Items die eingesammelt werden müssen:
+Uhr, Taschenlampe, Badminton-Schläger.
+
 "Rätsel"
 Mir fehlt Zeit.. sehen kann ich in dieser Dunkelheit auch nichts.. und ich vermisse Sport.
 
+
 Raum 0 : Start
+Viel Glück und viel Segen, auf all deinen Wegen.. stirb nicht. Tschüss.
+
 Raum 1 : Handschuh
+Der erste Raum. Vor dir liegt ein Handschuh.
+
 Raum 2 : Badminton-Schläger
+Du bist in Raum 2 eingetreten. Du stolperst über einen Badminton-Schläger.
+
 Raum 3 : Käsereibe
+In Raum 3 riechts streng.. eine Käsereibe findest du in der Ecke liegen.
+
 Raum 4 : Uhr
+Tick, Tack.. Tick, Tack. In Raum 4 tickt es ununterbrochen. Die Uhr nervt.
+
 Raum 5 : Glühbirne
+Überall 
+
 Raum 6 : Würfel
 Raum 7 : Buch
 Raum 8 : Taschenlampe
