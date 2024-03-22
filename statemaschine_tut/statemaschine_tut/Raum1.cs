@@ -8,18 +8,24 @@ namespace statemaschine_tut
 {
     internal class Raum1 : IState
     {
-        public void Update()
-        {
-        }
         public IState Check()
         {
-            return null;
+            {
+                if (Console.ReadLine().ToLower() == "n") return new Raum3();
+                else if (Console.ReadLine().ToLower() == "w") return new Raum2();
+
+                return null!;
+            }
         }
+
         public void StartState()
         {
+
         }
+
         public void EndState()
         {
+
         }
     }
 }
