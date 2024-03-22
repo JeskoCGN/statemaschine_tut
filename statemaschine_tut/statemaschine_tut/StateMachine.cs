@@ -16,8 +16,10 @@ namespace statemaschine_tut
         }
         private void Start()
         {
-            curState = new Raum1();
+            curState = new Raum0();
+            curState.StartState();
         }
+
         public void Update()
         {
             IState nextState = curState.Check();
@@ -27,7 +29,6 @@ namespace statemaschine_tut
                 curState = nextState;
                 curState.StartState();
             }
-            curState.Update();
         }
     }
 }
